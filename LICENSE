@@ -1,0 +1,174 @@
+body{
+margin:0;
+font-family:Arial;
+background:#0b1220;
+color:white;
+overflow-x:hidden;
+}
+
+/* HERO */
+.hero{
+padding:60px;
+text-align:center;
+background:linear-gradient(-45deg,#7c3aed,#ec4899,#3b82f6);
+background-size:400%;
+animation:grad 10s ease infinite;
+}
+
+@keyframes grad{
+0%{background-position:0%}
+50%{background-position:100%}
+100%{background-position:0%}
+}
+
+/* WALI */
+.wali-section{
+padding:60px 20px;
+text-align:center;
+}
+
+.wali-top{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:20px;
+}
+
+.wali-img{
+width:200px;
+height:240px;
+object-fit:cover;
+border-radius:20px;
+}
+
+/* IG */
+.ig{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:6px;
+padding:6px 10px;
+background:#e1306c;
+border-radius:6px;
+color:white;
+text-decoration:none;
+font-size:12px;
+}
+
+/* SVAST */
+.wali-bottom{
+text-align:center;
+margin-top:20px;
+}
+
+.svast{
+font-size:42px;
+background:linear-gradient(90deg,#7c3aed,#ec4899,#3b82f6);
+background-size:300%;
+-webkit-background-clip:text;
+color:transparent;
+animation:svast 4s infinite;
+}
+
+@keyframes svast{
+0%{background-position:0%}
+100%{background-position:300%}
+}
+
+/* SEARCH */
+#search{
+padding:10px;
+width:250px;
+border-radius:20px;
+border:none;
+margin-top:10px;
+}
+
+/* GRID */
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+/* CARD (FIX ONLY 1 VERSION) */
+.card{
+width:160px;
+background:rgba(255,255,255,0.05);
+padding:10px;
+border-radius:12px;
+
+opacity:0;
+transform:translateY(40px) scale(0.95);
+transition:0.5s ease;
+}
+
+.card.show{
+opacity:1;
+transform:translateY(0) scale(1);
+}
+
+/* IMG */
+.card img{
+width:100%;
+height:120px;
+object-fit:cover;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* MOMENT */
+.moment img{
+width:180px;
+border-radius:10px;
+cursor:pointer;
+}
+
+/* MODAL */
+.modal{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.9);
+justify-content:center;
+align-items:center;
+flex-direction:column;
+z-index:999;
+}
+
+#modalImg{
+max-width:90%;
+max-height:80vh;
+border-radius:10px;
+}
+
+#motivasiText{
+margin-top:15px;
+text-align:center;
+opacity:0.85;
+}
+
+/* CLOSE */
+.close{
+position:absolute;
+top:20px;
+right:20px;
+font-size:35px;
+cursor:pointer;
+}
+
+/* MOUSE */
+body::before{
+content:'';
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:radial-gradient(circle at var(--x,50%) var(--y,50%), rgba(124,58,237,0.2), transparent 40%);
+pointer-events:none;
+}
