@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Kelas XII-9 SMAN 10 CIREBON</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+  <h1>SVASTHANINE</h1>
+  <p>XII-9 SMAN 10 CIREBON</p>
+</header>
+
+<section class="wali-section">
+
+  <div class="wali-top">
+    <img src="images/wali.jpg" class="wali-img">
+
+    <div class="wali-text">
+      <h2>OUR BEST TEACHER</h2>
+      <p class="nama-guru">IDA LIDIAWATI</p>
+      <a class="ig" href="https://instagram.com/lidiawati989">Instagram</a>
+    </div>
+
+  </div>
+
+  <div class="wali-bottom">
+    <h1 class="svast">SVASTHANINE</h1>
+    <input type="text" id="search" placeholder="Cari nama siswa...">
+  </div>
+
+</section>
+
+<section>
+  <h2>Anggota Kelas</h2>
+
+  <div class="grid" id="studentList">
+
+     <div class="card" data-motivasi="Chill out, hang out, salat, cumlaude.">
+      <img src="">
+      <h3>ADINDA ZAHWA AZZAHRO</h3>
+
+      <a class="ig" href="https://instagram.com/dndzhwzzhr">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="If you're sad, add more lipstick and attack.">
+      <img src="">
+      <h3>ALZAHRA GHANIYA RAMADHANI</h3>
+
+      <a class="ig" href="https://instagram.com/mikaraay">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="This town is fake, but i'm the real thing.">
+      <img src="">
+      <h3>AMELIA ALMA ZALVA KAMILA</h3>
+
+      <a class="ig" href="https://instagram.com/ameliaazlv.k">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Menyelam untuk mengudara.">
+      <img src="">
+      <h3>ANDINI PUTRI RIANI</h3>
+
+      <a class="ig" href="https://instagram.com/-">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Is it love to keep it from you?">
+      <img src="">
+      <h3>AQILA NABRAISA SYAEKHU</h3>
+
+      <a class="ig" href="https://instagram.com/aqilanabraisaa">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Work hard in silence. Let your success be your noise.">
+      <img src="">
+      <h3>ATSEL NONISA</h3>
+
+      <a class="ig" href="https://instagram.com/atselnnsaa">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="If life is a movie">
+      <img src="">
+      <h3>AULIA TIARA PUTRI</h3>
+
+      <a class="ig" href="https://instagram.com/xtepe.png">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="We'll never be those kids again. ~Ivy,Frank Ocean">
+      <img src="">
+      <h3>AYUMI NAYYARA JAUHAR</h3>
+
+      <a class="ig" href="https://instagram.com/ayuminraa">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Some connections are impossible to resist, no matter how much they hurt.">
+      <img src="">
+      <h3>AYYESHA RIQQOH</h3>
+
+      <a class="ig" href="https://instagram.com/ayyesharr">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Failure is a concept. How you recover is the truth. ~SZA">
+      <img src="">
+      <h3>CALLYSTA NABILA</h3>
+
+      <a class="ig" href="https://instagram.com/clysta.n">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="In the end, I'm gonna be alright.">
+      <img src="">
+      <h3>CHENTADHINABA</h3>
+
+      <a class="ig" href="https://instagram.com/chentadhinabaa">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Hidup adalah pilihan">
+      <img src="">
+      <h3>DAMAR RIFAT SASONGKO</h3>
+
+      <a class="ig" href="https://instagram.com/damarrfs_">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Lifes just around teh bend, my friend. ~Frank Ocean">
+      <img src="">
+      <h3>DZAKIYAH TALITA NIHA PUTRI</h3>
+
+      <a class="ig" href="https://instagram.com/dzakiyaatlta_">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Man jadda wa jadda.">
+      <img src="">
+      <h3>DZAKY ALI RAFIF</h3>
+
+      <a class="ig" href="https://instagram.com/dzkyy19_">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Found you here, now please just stay for a while.">
+      <img src="">
+      <h3>ELANG RAFFI SYAKUR RADJAKUSUMA</h3>
+
+      <a class="ig" href="https://instagram.com/ejjha._">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="We're all chasin' after our ends.">
+      <img src="">
+      <h3>ELOK NAELA LUTFIYAH</h3>
+
+      <a class="ig" href="https://instagram.com/eloknaela">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Sadar akan kekurangan lebih baik daripada bangga akan kelebihan.">
+      <img src="">
+      <h3>FAIHAK SYAHRU RAHMAN</h3>
+
+      <a class="ig" href="https://instagram.com/faihak_s_r">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Dunia ini tidak untuk mereka yang berleha-leha.">
+      <img src="">
+      <h3>FAVIAN MUHAMMAD ABYAN</h3>
+
+      <a class="ig" href="https://instagram.com/favianma_">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Jangan lupa sholat.">
+      <img src="">
+      <h3>GATHAN ARYA PRATAMA</h3>
+
+      <a class="ig" href="https://instagram.com/gathan__arya">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="I guess this is really the end?">
+      <img src="">
+      <h3>KEISHYA DWI SANTIKA</h3>
+
+      <a class="ig" href="https://instagram.com/ooocaa">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="This moment will shine forever in the gallery of time.">
+      <img src="">
+      <h3>KHILDAH FAUZIYAH</h3>
+
+      <a class="ig" href="https://instagram.com/khilldahh">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="A sky full of stars, a heart full of memories.">
+      <img src="">
+      <h3>KIARA SALSABILLA</h3>
+
+      <a class="ig" href="https://instagram.com/kiaaaraarara">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Make today worth remembering.">
+      <img src="">
+      <h3>LEANDRA PUTRI NURHADY</h3>
+
+      <a class="ig" href="https://instagram.com/pnleandra">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="I Can, I Do.">
+      <img src="">
+      <h3>MAHER SYALAL HASBASH BUNGARAN SITUMORANG</h3>
+
+      <a class="ig" href="https://instagram.com/_maher.z">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="We won't win if we don't believe we can.">
+      <img src="">
+      <h3>MOZA ROMADHONTIKA</h3>
+
+      <a class="ig" href="https://instagram.com/mzardhta">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Di setiap kegagalan yang ada cobalah untuk lebih berusaha.">
+      <img src="">
+      <h3>MUHAMMAD VERREL WIJANARKA ZAHRAN</h3>
+
+      <a class="ig" href="https://instagram.com/verellrel">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Fokus kepada satu tujuan dan tidak terpengaruh oleh sekitar">
+      <img src="">
+      <h3>NABIL MUWAFAQI</h3>
+
+      <a class="ig" href="https://instagram.com/namu_thirty">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="School, friends, and stressm but I never want it to end.">
+      <img src="">
+      <h3>NAFFISA KIRANA AZZAHRA</h3>
+
+      <a class="ig" href="https://instagram.com/krnaazhraa">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Jangan takut menunjukkan karya, bakatmu layak untuk bersinar">
+      <img src="">
+      <h3>NAYLA ALMAIRA FARADISSA</h3>
+
+      <a class="ig" href="https://instagram.com/pitchynone_.xx">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Live, laugh, love Beabadoobee.">
+      <img src="">
+      <h3>NAZWA MARSHA ANANDA</h3>
+
+      <a class="ig" href="https://instagram.com/koonyakoonyaku">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Remedial pun kenangan">
+      <img src="">
+      <h3>RIQQOH TAJ FAUZAN MARVI</h3>
+
+      <a class="ig" href="https://instagram.com/erte_fauzan_m">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Even in the deepest caves, there is always a way out. ~Minecraft">
+      <img src="">
+      <h3>SITI NURAHMAYANTI</h3>
+
+      <a class="ig" href="https://instagram.com/yaranazeera">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="In this moment now, capture it, remember it. ~Fearless(T.S)">
+      <img src="">
+      <h3>TALITHA NAVA YUANDA</h3>
+
+      <a class="ig" href="https://instagram.com/tnava_">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Believe in yourself, and the world will believe too.">
+      <img src="">
+      <h3>TITA TRIANDANY</h3>
+
+      <a class="ig" href="https://instagram.com/tita.triandanny">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="It's never too late to be you wanna be.">
+      <img src="">
+      <h3>TRIANE KHOFIFATU RAHMAH</h3>
+
+      <a class="ig" href="https://instagram.com/anqzxne_">Instagram</a>
+    </div>
+
+    <div class="card" data-motivasi="Find joy in the simple things and life will always be fulfilling.">
+      <img src="">
+      <h3>ZYVA MEILANI AZRA</h3>
+
+      <a class="ig" href="https://instagram.com/zyvaameilanii">Instagram</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>📸 Moment Kelas</h2>
+
+  <div class="grid">
+    <div class="moment"><img src="images/m1.jpg"></div>
+    <div class="moment"><img src="images/m2.jpg"></div>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="imgModal" class="modal">
+  <span class="close">&times;</span>
+  <img id="modalImg">
+  <p id="motivasiText"></p>
+</div>
+
+<footer>
+  <p>@svastha9</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
